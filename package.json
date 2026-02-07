@@ -1,0 +1,21 @@
+{
+  "name": "gmail_pj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/firestore": "^8.3.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "mailcomposer": "^4.0.2"
+  }
+}
